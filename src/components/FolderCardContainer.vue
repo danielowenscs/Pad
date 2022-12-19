@@ -39,6 +39,7 @@ h1 {
     font-family: 'Inter'; 
     font-size: 64px;
     text-align: center;
+    padding-bottom: 40px;
 }
 </style>
 //    grid-template-rows: repeat(10, 1fr);

@@ -1,15 +1,21 @@
 <template>
-<FolderCardContainer/>
+  <div>
+    <div class="fill"></div>
+    <FolderCardContainer/>
+  </div>
+  
+
+
 </template> 
 
 <script setup lang="ts">
 import FolderCardContainer from "../components/FolderCardContainer.vue";
-import NavBar from "../components/NavBar.vue"
 </script>
 
-<style>
-body {
-  background-color: #E3E7F3;
+<style scoped>
+
+.fill {
+  height: 150px;
 }
 
 </style>
