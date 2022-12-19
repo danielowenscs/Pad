@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "vue": "^3.2.45",
+    "vue-eva-icons": "^1.1.1",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {

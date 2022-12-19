@@ -1,9 +1,14 @@
+<template>
+Your Folders
+<FolderCard/>
+</template>
+
 <script setup lang="ts">
-import TheWelcome from "../components/TheWelcome.vue";
+import FolderCard from "../components/FolderCard.vue";
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style>
+body {
+  background-color: #E3E7F3;
+}
+</style>
