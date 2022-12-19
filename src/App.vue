@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-
 </script>
 
 <template>
@@ -11,7 +10,8 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterView />
 </template>
 
-<style scoped>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Inter');
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -74,6 +74,8 @@ nav a:first-of-type {
   }
 }
 body {
-  background-color: #E3E7F3;
+  background-color: #E3E7F3 !important;
+  color: #575460;
+  font-family: 'Inter'; 
 }
 </style>
